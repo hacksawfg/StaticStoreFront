@@ -42,8 +42,8 @@ body {
 .sidebar h3 {
     text-align: right;
     padding: 0;
+    margin: 0;
     background: steelblue;
-    display: block;
 }
 
 .sidebar a {
@@ -58,4 +58,8 @@ body {
 .sidebar a:hover {
     background: grey;
     color: white;
+}
+
+.main {
+    
 }
