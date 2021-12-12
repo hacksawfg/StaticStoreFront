@@ -9,6 +9,12 @@ body h1 {
     font-size: 32px;
 }
 
+body hr {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 5;
+}
 
 .headwrap {
     margin: auto;
@@ -37,6 +43,10 @@ body h1 {
 .headwrap li a:hover {
     background: grey;
     color: white;
+}
+
+.headwrap img {
+    height: 50px;
 }
 
 .sidebar {
@@ -80,22 +90,24 @@ body h1 {
     text-transform: uppercase;
 }
 
+.main img {
+    width: 300px;
+}
 .featured {
+    width: 70%;
     margin-left: 20px;
     float: left;
-    position: relative;
 }
 
 .featured img {
     width: 225px;
 }
 
-.featured  section{ 
+.featured  section { 
     display: table-cell;
     vertical-align: middle;
     text-align: center;
 }
-
 
 .featured h1 {
     text-transform: uppercase;
@@ -107,10 +119,25 @@ body h1 {
     text-align: center;
 }
 
+.featured a {
+    text-decoration: none;
+}
+
+.featured a:visited {
+    color: black;
+}
+
+
 .featured p {
     padding: 0;
     margin: 0;
     text-align: center;
+}
+
+.logos {
+    width: 70%;
+    margin-left: 20px;
+    float: left;
 }
 
 .logos img {
@@ -125,4 +152,37 @@ body h1 {
 
 #benchmade {
     background-color: #0a348f;
+}
+
+.mailing {
+    width: 70%;
+    margin-left: 20px;
+    float: left;
+}
+
+.mailing h1 {
+    text-transform: uppercase;
+}
+
+.mailing h3 {
+    font-size: 16px;
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    margin-left: 20px;
+    float: left;
+    display: block;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: blue;
+}
+
+.footer a:visited {
+    color: blue;
 }
