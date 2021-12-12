@@ -1,6 +1,14 @@
 body {
-  
+    background-image: url(./assets/background.jpg);
+    width: 100%;
+    font-family: 'Acme', sans-serif;
+    /* Image from Naldz Graphics */
 }
+
+body h1 {
+    font-size: 32px;
+}
+
 
 .headwrap {
     margin: auto;
@@ -11,7 +19,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: steelblue;
+    background-color: transparent;
 }
 
 .headwrap li {
@@ -23,6 +31,7 @@ body {
     color: black;
     padding: 20px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .headwrap li a:hover {
@@ -43,16 +52,17 @@ body {
     text-align: right;
     padding: 0;
     margin: 0;
-    background: steelblue;
+    background: transparent;
 }
 
 .sidebar a {
-    background: steelblue;
+    background: transparent;
     color: black;
     text-decoration: none;
     display: block;
     text-align: right;
-    font-size: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 .sidebar a:hover {
@@ -61,5 +71,58 @@ body {
 }
 
 .main {
-    
+    margin-right: 15%;
+    width: 70%;
+    margin-left: 30px;
+}
+
+.main h1 {
+    text-transform: uppercase;
+}
+
+.featured {
+    margin-left: 20px;
+    float: left;
+    position: relative;
+}
+
+.featured img {
+    width: 225px;
+}
+
+.featured  section{ 
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.featured h1 {
+    text-transform: uppercase;
+}
+
+.featured div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.featured p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.logos img {
+    float: left;
+    width: 133px;
+    margin: 20px;
+}
+
+.logos h1 {
+    text-transform: uppercase;
+} 
+
+#benchmade {
+    background-color: #0a348f;
 }
